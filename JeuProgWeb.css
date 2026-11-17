@@ -1,0 +1,15 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;              /* stays above the content it scrolls over */
+  background: var(--ink);
+  color: var(--paper);
+  padding: 14px 18px;
+  border-radius: 0 0 var(--radius) var(--radius);
+
+  display: flex;            /* title on the left, tagline on the right */
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
