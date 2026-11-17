@@ -1,4 +1,28 @@
+:root {
+  --brand:   #E63946;       /* the accent: headings, links, rock badge */
+  --ink:     #1D3557;       /* the dark: header, titles */
+  --steel:   #457B9D;       /* the secondary: buttons, techno badge */
+  --sand:    #F4A261;       /* the third: jazz badge */
+  --paper:   #FFFFFF;
+  --zebra:   #F1F3F4;       /* every other table row */
+  --line:    #DADEE3;       /* borders */
+  --muted:   #334155;       /* body text */
+  --radius:  12px;
+  --gap:     24px;
+}
+
+
 header {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 14px 18px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
   text-align: center;
-  
+  gap: 12px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
 }
