@@ -5,7 +5,7 @@
   --sand:    #F4A261;       /* the third: jazz badge */
   --paper:   #FFFFFF;
   --zebra:   #F1F3F4;       /* every other table row */
-  --line:    #DADEE3;       /* borders */
+  --line:    hsl(0, 36%, 20%);       /* borders */
   --muted:   #334155;       /* body text */
   --radius:  12px;
   --gap:     24px;
@@ -17,11 +17,14 @@ header {
 }
 
 .border{
-  background-color: var(--ink);
+  background-color: var(--line);
   color : var(--paper);
   border-radius : 999px; /* pill shape */
-  padding: 4px 12px;
+  padding: 12px 16px;
   font-family: bits;
+  display: inline-block;
+  text-shadow: 2px 2px black;
+
 }
 
 @font-face{
